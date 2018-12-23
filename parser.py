@@ -19,9 +19,9 @@ def text_keys_relevancy(phrase, file_dir='/home/fvoyager/test'):
                     res_k = {"key": key, "indeces": pos, "count": len(pos)}
                     res[file]["result"].append(res_k)
                 res[file]["total"] = total
-            print("yes", res)
+            print("file", res)
             reds.hmset("pythonDict", res)
-    print(reds.hgetall("pythonDict"))
+    print("saved into hashmaps in Redis", reds.hgetall("pythonDict"))
 
 
 def main():
