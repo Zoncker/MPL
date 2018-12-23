@@ -21,7 +21,9 @@ enter the dimensions of the matrix:5 4
 ```
 ## Text keys parser
 
-Pretty dumb approach, but still
+Pretty dumb approach, but still...
+
+
 Enter the phrase and directory to search (if not, will search in the default one)
 ```python
 Enter a phrase to search for:а не
